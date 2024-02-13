@@ -1,0 +1,152 @@
+:root {
+    --veryDark: #0D192C;
+    --Dark: #15263F;
+    --White: #FFF;
+    --Pushti: #8BACD9;
+    --Blu:#00FFF8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: var(--veryDark);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__class {
+    background-color: var(--Dark);
+    width: 350px;
+    height: 596px;
+    flex-shrink: 0;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+
+
+}
+
+.image:hover:active {
+   color: var(--White);
+   
+}
+
+.image {}
+
+.main__text {}
+
+.main__matn {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--White);
+    padding-top: 25px;
+}
+.main__matn:active{
+    color: var(--Blu);
+
+}
+
+.main_paragraf {
+    color: var(--Pushti);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+   
+}
+
+.site__animation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.site__animat {
+    display: flex;
+    color: var(--Blu);
+}
+
+.site-oclok {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.olmos {
+    width: 11px;
+    height: 18px;
+    padding-right: 5px;
+}
+.line{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--veryDark);
+   
+
+}
+
+.animat__text {}
+
+.site__oclok {
+    display: flex;
+    color: var(--Pushti);
+}
+
+.site-oclok__img {
+    padding-right: 4px;
+}
+
+.site-oclok-text {}
+
+.main__bottom {
+    display: flex;
+    padding-top: 15px;
+}
+
+.site__ing {
+    padding-right: 7px;
+
+}
+
+.site-footer__text {
+   color: var(--White);
+   
+}
+.site-footer__text:active{
+    color: var(--Blu);
+}
+
+.span {
+    color: var(--Pushti);
+    padding-right: 5px;
+    
+}
